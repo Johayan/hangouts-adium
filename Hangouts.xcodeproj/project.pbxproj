@@ -6,9 +6,58 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		527AAA531CFC0EDE0085AE4A /* Frameworks in Resources */ = {isa = PBXBuildFile; fileRef = 527AAA521CFC0EDE0085AE4A /* Frameworks */; };
+		527AAA621CFC0FD50085AE4A /* AIHangoutsPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 527AAA5D1CFC0FD50085AE4A /* AIHangoutsPlugin.m */; };
+		527AAA631CFC0FD50085AE4A /* PurpleHangoutsAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 527AAA5F1CFC0FD50085AE4A /* PurpleHangoutsAccount.m */; };
+		527AAA641CFC0FD50085AE4A /* PurpleHangoutsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 527AAA611CFC0FD50085AE4A /* PurpleHangoutsService.m */; };
+		527AAA811CFC32390085AE4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527AAA801CFC32390085AE4A /* Foundation.framework */; };
+		527AAA831CFC323C0085AE4A /* Adium Framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527AAA821CFC323C0085AE4A /* Adium Framework */; };
+		527AAA851CFC323E0085AE4A /* libglib Framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527AAA841CFC323E0085AE4A /* libglib Framework */; };
+		527AAA871CFC32410085AE4A /* libpurple Framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 527AAA861CFC32410085AE4A /* libpurple Framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		527AAA491CFC0EC10085AE4A /* Hangouts.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hangouts.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		527AAA4C1CFC0EC10085AE4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		527AAA521CFC0EDE0085AE4A /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Frameworks; sourceTree = "<group>"; };
+		527AAA5C1CFC0FD50085AE4A /* AIHangoutsPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AIHangoutsPlugin.h; sourceTree = "<group>"; };
+		527AAA5D1CFC0FD50085AE4A /* AIHangoutsPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AIHangoutsPlugin.m; sourceTree = "<group>"; };
+		527AAA5E1CFC0FD50085AE4A /* PurpleHangoutsAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurpleHangoutsAccount.h; sourceTree = "<group>"; };
+		527AAA5F1CFC0FD50085AE4A /* PurpleHangoutsAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurpleHangoutsAccount.m; sourceTree = "<group>"; };
+		527AAA601CFC0FD50085AE4A /* PurpleHangoutsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurpleHangoutsService.h; sourceTree = "<group>"; };
+		527AAA611CFC0FD50085AE4A /* PurpleHangoutsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PurpleHangoutsService.m; sourceTree = "<group>"; };
+		527AAA651CFC2B810085AE4A /* AILibpurplePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AILibpurplePlugin.h; sourceTree = "<group>"; };
+		527AAA661CFC2C560085AE4A /* PurpleService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurpleService.h; sourceTree = "<group>"; };
+		527AAA671CFC2E5B0085AE4A /* CBPurpleAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CBPurpleAccount.h; sourceTree = "<group>"; };
+		527AAA681CFC2ED00085AE4A /* PurpleCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PurpleCommon.h; sourceTree = "<group>"; };
+		527AAA691CFC31070085AE4A /* account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = account.h; sourceTree = "<group>"; };
+		527AAA6A1CFC31070085AE4A /* connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connection.h; sourceTree = "<group>"; };
+		527AAA6B1CFC31070085AE4A /* conversation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conversation.h; sourceTree = "<group>"; };
+		527AAA6C1CFC31070085AE4A /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
+		527AAA6D1CFC31070085AE4A /* debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = debug.h; sourceTree = "<group>"; };
+		527AAA6E1CFC31070085AE4A /* dnsquery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dnsquery.h; sourceTree = "<group>"; };
+		527AAA6F1CFC31070085AE4A /* ft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ft.h; sourceTree = "<group>"; };
+		527AAA701CFC31070085AE4A /* gaim-compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "gaim-compat.h"; sourceTree = "<group>"; };
+		527AAA711CFC31070085AE4A /* imgstore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imgstore.h; sourceTree = "<group>"; };
+		527AAA721CFC31070085AE4A /* network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = network.h; sourceTree = "<group>"; };
+		527AAA731CFC31070085AE4A /* notify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notify.h; sourceTree = "<group>"; };
+		527AAA741CFC31070085AE4A /* plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plugin.h; sourceTree = "<group>"; };
+		527AAA751CFC31070085AE4A /* pounce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pounce.h; sourceTree = "<group>"; };
+		527AAA761CFC31070085AE4A /* prefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prefs.h; sourceTree = "<group>"; };
+		527AAA771CFC31070085AE4A /* privacy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = privacy.h; sourceTree = "<group>"; };
+		527AAA781CFC31070085AE4A /* proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = proxy.h; sourceTree = "<group>"; };
+		527AAA791CFC31070085AE4A /* request.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = request.h; sourceTree = "<group>"; };
+		527AAA7A1CFC31070085AE4A /* roomlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roomlist.h; sourceTree = "<group>"; };
+		527AAA7B1CFC31070085AE4A /* signals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = signals.h; sourceTree = "<group>"; };
+		527AAA7C1CFC31070085AE4A /* sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sound.h; sourceTree = "<group>"; };
+		527AAA7D1CFC31070085AE4A /* sslconn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sslconn.h; sourceTree = "<group>"; };
+		527AAA7E1CFC31070085AE4A /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		527AAA7F1CFC31070085AE4A /* whiteboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whiteboard.h; sourceTree = "<group>"; };
+		527AAA801CFC32390085AE4A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		527AAA821CFC323C0085AE4A /* Adium Framework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Adium Framework"; path = "Frameworks/Adium Framework"; sourceTree = "<group>"; };
+		527AAA841CFC323E0085AE4A /* libglib Framework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "libglib Framework"; path = "Frameworks/libglib Framework"; sourceTree = "<group>"; };
+		527AAA861CFC32410085AE4A /* libpurple Framework */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "libpurple Framework"; path = "Frameworks/libpurple Framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -16,6 +65,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527AAA811CFC32390085AE4A /* Foundation.framework in Frameworks */,
+				527AAA831CFC323C0085AE4A /* Adium Framework in Frameworks */,
+				527AAA851CFC323E0085AE4A /* libglib Framework in Frameworks */,
+				527AAA871CFC32410085AE4A /* libpurple Framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -25,6 +78,11 @@
 		527AAA401CFC0EC10085AE4A = {
 			isa = PBXGroup;
 			children = (
+				527AAA861CFC32410085AE4A /* libpurple Framework */,
+				527AAA841CFC323E0085AE4A /* libglib Framework */,
+				527AAA821CFC323C0085AE4A /* Adium Framework */,
+				527AAA801CFC32390085AE4A /* Foundation.framework */,
+				527AAA521CFC0EDE0085AE4A /* Frameworks */,
 				527AAA4B1CFC0EC10085AE4A /* Hangouts */,
 				527AAA4A1CFC0EC10085AE4A /* Products */,
 			);
@@ -41,6 +99,39 @@
 		527AAA4B1CFC0EC10085AE4A /* Hangouts */ = {
 			isa = PBXGroup;
 			children = (
+				527AAA691CFC31070085AE4A /* account.h */,
+				527AAA6A1CFC31070085AE4A /* connection.h */,
+				527AAA6B1CFC31070085AE4A /* conversation.h */,
+				527AAA6C1CFC31070085AE4A /* core.h */,
+				527AAA6D1CFC31070085AE4A /* debug.h */,
+				527AAA6E1CFC31070085AE4A /* dnsquery.h */,
+				527AAA6F1CFC31070085AE4A /* ft.h */,
+				527AAA701CFC31070085AE4A /* gaim-compat.h */,
+				527AAA711CFC31070085AE4A /* imgstore.h */,
+				527AAA721CFC31070085AE4A /* network.h */,
+				527AAA731CFC31070085AE4A /* notify.h */,
+				527AAA741CFC31070085AE4A /* plugin.h */,
+				527AAA751CFC31070085AE4A /* pounce.h */,
+				527AAA761CFC31070085AE4A /* prefs.h */,
+				527AAA771CFC31070085AE4A /* privacy.h */,
+				527AAA781CFC31070085AE4A /* proxy.h */,
+				527AAA791CFC31070085AE4A /* request.h */,
+				527AAA7A1CFC31070085AE4A /* roomlist.h */,
+				527AAA7B1CFC31070085AE4A /* signals.h */,
+				527AAA7C1CFC31070085AE4A /* sound.h */,
+				527AAA7D1CFC31070085AE4A /* sslconn.h */,
+				527AAA7E1CFC31070085AE4A /* util.h */,
+				527AAA7F1CFC31070085AE4A /* whiteboard.h */,
+				527AAA681CFC2ED00085AE4A /* PurpleCommon.h */,
+				527AAA671CFC2E5B0085AE4A /* CBPurpleAccount.h */,
+				527AAA661CFC2C560085AE4A /* PurpleService.h */,
+				527AAA651CFC2B810085AE4A /* AILibpurplePlugin.h */,
+				527AAA5C1CFC0FD50085AE4A /* AIHangoutsPlugin.h */,
+				527AAA5D1CFC0FD50085AE4A /* AIHangoutsPlugin.m */,
+				527AAA5E1CFC0FD50085AE4A /* PurpleHangoutsAccount.h */,
+				527AAA5F1CFC0FD50085AE4A /* PurpleHangoutsAccount.m */,
+				527AAA601CFC0FD50085AE4A /* PurpleHangoutsService.h */,
+				527AAA611CFC0FD50085AE4A /* PurpleHangoutsService.m */,
 				527AAA4C1CFC0EC10085AE4A /* Info.plist */,
 			);
 			path = Hangouts;
@@ -102,6 +193,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527AAA531CFC0EDE0085AE4A /* Frameworks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +204,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				527AAA641CFC0FD50085AE4A /* PurpleHangoutsService.m in Sources */,
+				527AAA621CFC0FD50085AE4A /* AIHangoutsPlugin.m in Sources */,
+				527AAA631CFC0FD50085AE4A /* PurpleHangoutsAccount.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,6 +339,7 @@
 				527AAA511CFC0EC10085AE4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

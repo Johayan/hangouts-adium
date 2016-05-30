@@ -23,6 +23,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2016 John Lamb. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
-	<string></string>
+	<string>AIHangoutsPlugin</string>
 </dict>
 </plist>
